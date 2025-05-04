@@ -95,7 +95,7 @@ const words = [
       popupText.textContent = '"Whyyy did you winn?!... :<" – Dazai';
     } else {
       popupImg.src = "assets/dazailose.gif";
-      popupText.textContent = '"Let\'s gooo... double suicide~ :3" – Dazai';
+      popupText.textContent = '"Let\'s gooo... double jisatsu~ :3" – Dazai';
       wordDisplay.textContent = selectedWord; 
     }
   
