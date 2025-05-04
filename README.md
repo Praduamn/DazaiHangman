@@ -58,6 +58,8 @@ That's it! No setup or dependencies required.
 
 ![preview](assets/dazaiss2.png)
 
+![preview](assets/dazaiss3.png)
+
 ---
 
 ## ✨ Credits
