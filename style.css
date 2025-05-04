@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("assets/dazaibg.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .game-container {
+    max-width: 800px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+  }
+  
+
+  .dazai-glow {
+    box-shadow: 0 0 25px rgba(120, 70, 20, 0.8);
+    border-radius: 12px;
+    padding: 15px;
+    background-color: rgba(30, 20, 10, 0.5);
+    backdrop-filter: blur(3px);
+  }
+  
+  #dazai-stage {
+    width: 200px;
+    height: auto;
+  }
+  
+  #word-display {
+    font-size: 2rem;
+    letter-spacing: 10px;
+  }
+  
+  #letter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  #letter-buttons button {
+    padding: 10px 14px;
+    font-size: 1rem;
+    border: none;
+    background-color: #8b5e3c;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  #letter-buttons button:hover {
+    background-color: #a5714f;
+  }
+  
+  #letter-buttons button:disabled {
+    background-color: #444;
+    cursor: default;
+  }
+  
+  #popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  #popup-content {
+    background-color: rgba(30, 30, 30, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 90%;
+    box-shadow: 0 0 20px #000;
+  }
+  
+  #popup-img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  
+  #popup-text {
+    color: #fff;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  #popup-overlay.hidden {
+    display: none;
+  }
+  
+  #popup-content button {
+    padding: 10px 20px;
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

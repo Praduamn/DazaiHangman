@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dazai Hangman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 style="color:cyan;">Dazai Hangman xD - Cosy</h1>
+  <div class="game-container dazai-glow">
+    <div id="hangman-display" class="dazai-glow">
+      <img id="dazai-stage" src="assets/0.png" alt="Dazai Stage" />
+      <p id="lives-display">Lives left: 6</p>
+
+    </div>
+
+    <div id="word-display" class="dazai-glow"></div>
+
+    <div id="letter-buttons" class="dazai-glow"></div>
+  </div>
+
+  <div id="popup-overlay" class="hidden">
+    <div id="popup-content">
+      <img id="popup-img" src="" alt="Dazai reaction" />
+      <p id="popup-text"></p>
+      <button onclick="location.reload()">Try Again</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
