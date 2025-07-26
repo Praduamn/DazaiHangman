@@ -12,7 +12,7 @@ Guess the word before Dazai’s existential crisis reaches its limit... or he’
 
 ## 🎮 Play Now
 
-👉 [Try it live on GitHub Pages](https://cosmoxthelegend.github.io/DazaiHangman)
+👉 [Try it live on GitHub Pages](https://praduamn.github.io/DazaiHangman/)
 
 ---
 
@@ -64,7 +64,7 @@ That's it! No setup or dependencies required.
 
 ## ✨ Credits
 
-Made with ~~love~~ suffering by [Cos Mox](https://github.com/CosMoxTheLegend)
+Made with ~~love~~ suffering by [Cos Mox](https://github.com/Praduamn)
 Inspired by *Osamu Dazai* (Bungou Stray Dogs)
 Assets edited and compiled manually
 
