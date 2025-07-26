@@ -35,7 +35,7 @@ Guess the word before Dazai’s existential crisis reaches its limit... or he’
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/CosMoxTheLegend/DazaiHangman.git
+   git clone https://github.com/Praduamn/DazaiHangman.git
    cd DazaiHangman
 
 2. **Open `index.html` in your browser**
@@ -64,7 +64,7 @@ That's it! No setup or dependencies required.
 
 ## ✨ Credits
 
-Made with ~~love~~ suffering by [Cos Mox](https://github.com/Praduamn)
+Made with ~~love~~ suffering by [Praduamn](https://github.com/Praduamn)
 Inspired by *Osamu Dazai* (Bungou Stray Dogs)
 Assets edited and compiled manually
 
